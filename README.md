@@ -18,7 +18,7 @@ A lightweight PowerShell script to generate a Table of Contents for Markdown-sty
 
    ```powershell
    .\Generate-MarkdownTOC.ps1
-````
+   ```
 
 > This will read `input.txt`, generate a structured TOC, create corresponding `.md` content under `docs/`, and log the process to `logger.ps1.log`.
 
