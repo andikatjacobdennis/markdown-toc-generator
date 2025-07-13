@@ -5,9 +5,9 @@ A lightweight PowerShell script to generate a Table of Contents for Markdown-sty
 ## Features
 
 - Parses hierarchical topics from a text input
-- Outputs a clickable GitHub-flavored TOC (`index.md`)
-- Automatically creates organized folders and Markdown files under `docs/`
-- Generates a build log (`logger.ps1.log`)
+- Outputs a clickable GitHub-flavored TOC (index.md)
+- Automatically creates organized folders and Markdown files under docs/
+- Generates a build log (logger.ps1.log)
 - Easy to run via PowerShell — no dependencies
 
 ## How to Run
@@ -20,7 +20,7 @@ A lightweight PowerShell script to generate a Table of Contents for Markdown-sty
    .\Generate-MarkdownTOC.ps1
    ```
 
-> This will read `input.txt`, generate a structured TOC, create corresponding `.md` content under `docs/`, and log the process to `logger.ps1.log`.
+> This will read input.txt, generate a structured TOC, create corresponding .md content under docs/, and log the process to logger.ps1.log.
 
 ## Output Structure
 
@@ -52,12 +52,12 @@ markdown-toc-generator/
 
 | File/Folder                | Description                                                |
 | -------------------------- | ---------------------------------------------------------- |
-| `Generate-MarkdownTOC.ps1` | The main PowerShell script                                 |
-| `input.txt`                | Input file with topic list (like C# course outline)        |
-| `logger.ps1.log`           | Log file generated during script execution                 |
-| `docs/`                    | Folder with generated `index.md` and structured subfolders |
-| `README.md`                | This documentation                                         |
-| `LICENSE`                  | MIT License                                                |
+| Generate-MarkdownTOC.ps1 | The main PowerShell script                                 |
+| input.txt                | Input file with topic list (like C# course outline)        |
+| logger.ps1.log           | Log file generated during script execution                 |
+| docs/                    | Folder with generated index.md and structured subfolders |
+| README.md                | This documentation                                         |
+| LICENSE                  | MIT License                                                |
 
 ## License
 
