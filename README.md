@@ -26,7 +26,7 @@ A lightweight PowerShell script to generate a Table of Contents for Markdown-sty
 
 Example output after running the script:
 
-```
+```bash
 markdown-toc-generator/
 │
 ├── Generate-MarkdownTOC.ps1        # PowerShell script
