@@ -9,11 +9,17 @@ A lightweight PowerShell script to generate a Table of Contents for Markdown-sty
 - Easy CLI usage
 - No dependencies
 
-## Usage
+## How to Run
 
-```powershell
-.\Generate-MarkdownTOC.ps1 -InputFile input.txt -OutputFile toc.md
+1. Open **PowerShell**
+2. Navigate to the folder containing the script and input file
+3. Run:
+
+   ```powershell
+   .\Generate-MarkdownTOC.ps1 -InputFile input.txt -OutputFile toc.md
 ````
+
+> 📁 This will read from `input.txt` and generate a Markdown-compatible TOC in `toc.md`.
 
 ## Example Input (`input.txt`)
 
