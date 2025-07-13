@@ -59,7 +59,7 @@ try {
     New-Item -Path $rootFolder -ItemType Directory -Force | Out-Null
     $indexContent = "# Documentation Index`n`n"
 
-    # ✅ Read input as UTF-8 to avoid garbled characters
+    # Read input as UTF-8 to avoid garbled characters
     $lines = Get-Content $inputFile -Encoding UTF8
 
     $entries = @()
