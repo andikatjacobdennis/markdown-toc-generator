@@ -62,4 +62,4 @@ markdown-toc-generator/
 
 ## License
 
-MIT
+Open-source under [MIT License](LICENSE)
