@@ -59,7 +59,6 @@ markdown-toc-generator/
 | `README.md`                | This documentation                                         |
 | `LICENSE`                  | MIT License                                                |
 
-
 ## License
 
 Open-source under [MIT License](LICENSE)
